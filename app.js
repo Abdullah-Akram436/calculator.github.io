@@ -6,6 +6,7 @@ function setnum(num){
 
 function ans(){
     var inputvalue = document.getElementById("screen");
+    var output = eval(inputvalue.value)
     inputvalue.value = output
 }
 
