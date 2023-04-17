@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="icon" type="image/x-icon" href="icons8-copyright-50.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Orbitron&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULATOR</h1>
+        <div class="screen">
+            <input type="text" disabled id="screen">
+        </div>
+        <div class="buttons">
+            <button onclick="clearbtn('')">AC</button>
+            <button onclick="setnum('+')">+</button>
+            <button onclick="setnum('-')">-</button>
+            <button class="color" onclick="setnum('/')">/</button><br>
+
+            <button onclick="setnum('7')">7</button>
+            <button onclick="setnum('8')">8</button>
+            <button onclick="setnum('9')">9</button>
+            <button class="color" onclick="setnum('*')">X</button><br>
+
+            <button onclick="setnum('4')">4</button>
+            <button onclick="setnum('5')">5</button>
+            <button onclick="setnum('6')">6</button>
+            <button class="color" onclick="setnum('.')">.</button><br>
+
+            <button onclick="setnum('3')">3</button>
+            <button onclick="setnum('2')">2</button>
+            <button onclick="setnum('1')">1</button>
+            <button class="color" onclick="del()">Del</button><br>
+            
+            <button onclick="setnum('00')">00</button>
+            <button onclick="setnum('0')">0</button>
+            <button onclick="setnum('%')">%</button>
+            <button class="color" onclick="ans()">=</button><br>
+        </div>
+    </div>
+
+    <footer>
+        <p>Design and Developed by <span><a href="https://abdullah-akram436.github.io/portfolio.github.io/#header">Abdullah Khan</a></span></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
