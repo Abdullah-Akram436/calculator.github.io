@@ -70,16 +70,9 @@ footer p span a{
     color: black;
 }
 
-
-@media only screen and (max-width: 400px){
-    .container{
-        margin: 20% auto;
-    }
-}
-@media only screen and (max-width: 256px){
+@media only screen and (max-width: 768px){
     .container{
         width: 230px;
-        margin: 0px;
     }
     .buttons button{
         font-size: 16px;
@@ -93,5 +86,8 @@ footer p span a{
         cursor: pointer;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         transition: all 0.4s ease-in-out;
+    }
+    footer p{
+        font-size: 13px;
     }
 }
